@@ -12,8 +12,10 @@ var grounded : bool = false
 onready var sprite = $Sprite
 onready var ui = get_node("/root/Game/CanvasLayer/UI")
 
+var isDead = false
+
 func _ready():
-	pass
+	sprite.play("Standing")
 	
 func _physics_process(delta):
 	vel.x = 0
@@ -35,8 +37,17 @@ func _physics_process(delta):
 	elif vel.x > 0:
 		sprite.flip_h = false
 		
+	if Input.is_action_pressed("move_left") or Input.is_action_pressed("move_right"):
+		sprite.play("Walking")
+	else:
+		sprite.play("Standing")
+		sprite.stop()
+		
+	if isDead:
+		sprite.play("Dead")
 
 func die():
+	isDead = true
 	var animator = get_node("AnimationPlayer")
 	animator.play("Death")
 	yield(animator, "animation_finished")
