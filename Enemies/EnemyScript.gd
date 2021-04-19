@@ -6,6 +6,11 @@ export var moveDist : int = 100
 onready var startX : float = position.x
 onready var targetX : float = position.x + moveDist
 
+onready var sprite = $Sprite
+
+func _ready():
+	sprite.play("default")
+
 func _physics_process (delta):
 	
 	# move to the "targetX" position
