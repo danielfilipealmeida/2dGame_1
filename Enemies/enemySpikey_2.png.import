@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/enemySpikey_2.png-3601a761fd7ac8290da0385f5170cb81.stex"
+path="res://.import/enemySpikey_2.png-b2d89cd97f2034c6d24e34776448a6df.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://enemySpikey_2.png"
-dest_files=[ "res://.import/enemySpikey_2.png-3601a761fd7ac8290da0385f5170cb81.stex" ]
+source_file="res://Enemies/enemySpikey_2.png"
+dest_files=[ "res://.import/enemySpikey_2.png-b2d89cd97f2034c6d24e34776448a6df.stex" ]
 
 [params]
 

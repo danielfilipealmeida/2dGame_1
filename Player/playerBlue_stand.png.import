@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tilesheet.png-55e778059ad55a1a47c5237b5db55343.stex"
+path="res://.import/playerBlue_stand.png-e7d7b41083dd5496b31e3b1f119494ec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tilesheet.png"
-dest_files=[ "res://.import/tilesheet.png-55e778059ad55a1a47c5237b5db55343.stex" ]
+source_file="res://Player/playerBlue_stand.png"
+dest_files=[ "res://.import/playerBlue_stand.png-e7d7b41083dd5496b31e3b1f119494ec.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerBlue_stand.png-58de7704445099f4c1e9363b438a2b1c.stex"
+path="res://.import/redCrystal.png-976b99fb480a40f75fd180dc41257006.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://playerBlue_stand.png"
-dest_files=[ "res://.import/playerBlue_stand.png-58de7704445099f4c1e9363b438a2b1c.stex" ]
+source_file="res://Objects/Crystal/redCrystal.png"
+dest_files=[ "res://.import/redCrystal.png-976b99fb480a40f75fd180dc41257006.stex" ]
 
 [params]
 
